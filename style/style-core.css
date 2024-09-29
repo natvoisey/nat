@@ -444,6 +444,15 @@ kbd {
 
 /* Night Mode */
 
+@media (prefers-color-scheme: dark) {
+	html, a {
+		background-color: #101010;
+		color: #cccccc;
+	}
+	hr, caption, tbody th, td {
+		border-bottom-color: #666 !important;
+}
+
 .night-mode,
 .night-mode a {
   color: #dedede; /* iOS text color */
